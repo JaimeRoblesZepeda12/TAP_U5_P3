@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TableRow android:background="#4FB1FF">
+        <Button android:text="9" style="@style/botonercalculadora"/>
+        <Button android:text="8" style="@style/botonercalculadora"/>
+        <Button android:text="7" style="@style/botonercalculadora"/>
+        <Button android:text="/" style="@style/botonercalculadora"/>
+    </TableRow>
+    <TableRow android:background="#4FB1FF">
+        <Button android:text="6" style="@style/botonercalculadora"/>
+        <Button android:text="5" style="@style/botonercalculadora"/>
+        <Button android:text="4" style="@style/botonercalculadora"/>
+        <Button android:text="*" style="@style/botonercalculadora"/>
+    </TableRow>
+    <TableRow android:background="#4FB1FF">
+        <Button android:text="3" style="@style/botonercalculadora"/>
+        <Button android:text="2" style="@style/botonercalculadora"/>
+        <Button android:text="1" style="@style/botonercalculadora"/>
+        <Button android:text="-" style="@style/botonercalculadora"/>
+    </TableRow>
+    <TableRow android:background="#4FB1FF">
+        <Button android:text="0" style="@style/botonercalculadora"/>
+        <Button android:text="." style="@style/botonercalculadora"/>
+        <Button android:text="=" style="@style/botonercalculadora"/>
+        <Button android:text="+" style="@style/botonercalculadora"/>
+    </TableRow>
+    <TableRow>
+        <LinearLayout
+            android:orientation="vertical" android:layout_span="4">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconfinder_24_3561857"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iconfinder_24_3561857"/>
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

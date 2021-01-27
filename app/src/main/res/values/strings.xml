@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TAP_U5_Practica3</string>
+    <array name="opcionesPrincipales">
+        <item>Objetos basicos</item>
+        <item>LinearLayout</item>
+        <item>GridLayout</item>
+        <item>TableLayout</item>
+
+    </array>
+    <array name="itemsspinner">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Amarilla</item>
+        <item>Cafe</item>
+    </array>
+</resources>
